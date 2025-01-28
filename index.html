@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kaio Freelancer - Desenvolvedor Full Stack Javascript especializado em soluções web modernas">
+    <meta name="theme-color" content="#4a90e2">
+    <title>Kaio Freelancer | Desenvolvedor Full Stack Javascript</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#home" class="logo" aria-label="Formato Livre">
+                    <span class="gradient-text">Formato Livre</span>
+                </a>
+                
+                <button 
+                    type="button" 
+                    class="nav-toggle" 
+                    aria-label="Alternar menu de navegação"
+                    aria-expanded="false"
+                    aria-controls="nav-menu"
+                >
+                    <i class="bx bx-menu" aria-hidden="true"></i>
+                </button>
+
+                <ul id="nav-menu" class="nav-menu">
+                    <!-- <li><a href="#sobre" class="nav-link">Sobre</a></li> -->
+                    <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                    <!-- <li><a href="#contato" class="nav-link">Contato</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title gradient-text">
+                        Kaio Freelancer
+                        <span class="hero-subtitle">Full Stack Javascript</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Um desenvolvedor frontend em formação apaixonado por tecnologia. Estou
+                        sempre me desafiando com novos projetos e buscando feedback na
+                        comunidade de programação, além de compartilhar meus conhecimentos. 😁
+                        Ah, também sou fã de jogos, filmes, séries e animes. 💜
+                    </p>
+
+                    <div class="hero-actions">
+                        <a 
+                            href="https://linkedin.com/in/seu-perfil" 
+                            class="btn btn-primary" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Visitar perfil no LinkedIn"
+                        >
+                            <i class="bx bxl-linkedin" aria-hidden="true"></i>
+                            LinkedIn
+                        </a>
+                        <a 
+                            href="https://github.com/seu-usuario" 
+                            class="btn btn-secondary" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Visitar perfil no GitHub"
+                        >
+                            <i class="bx bxl-github" aria-hidden="true"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="projects">
+            <div class="container">
+                <h2 class="section-title gradient-text">Meus Projetos</h2>
+                <p class="section-description">
+                    Conheça alguns dos projetos que desenvolvi utilizando tecnologias modernas
+                </p>
+
+                <div class="projects-grid">
+                    <!-- Projeto 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./src/imagem/download1.png" alt="Preview do projeto 1" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce React</h3>
+                            <p class="project-description">
+                                Loja virtual completa desenvolvida com React, Redux e Firebase. 
+                                Inclui carrinho de compras, autenticação e pagamentos.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Redux</span>
+                                <span class="tag">Firebase</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-secondary btn-sm">
+                                    <i class="bx bx-code-alt"></i>
+                                    Código
+                                </a>
+                                <a href="#" class="btn btn-primary btn-sm">
+                                    <i class="bx bx-link-external"></i>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./src/imagem/download2.png" alt="Preview do projeto 2" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Manager</h3>
+                            <p class="project-description">
+                                Aplicativo de gerenciamento de tarefas com Node.js e MongoDB.
+                                Features incluem categorias, prioridades e lembretes.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Express</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-secondary btn-sm">
+                                    <i class="bx bx-code-alt"></i>
+                                    Código
+                                </a>
+                                <a href="#" class="btn btn-primary btn-sm">
+                                    <i class="bx bx-link-external"></i>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Projeto 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="./src/imagem/download3.png" alt="Preview do projeto 3" loading="lazy">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Weather App</h3>
+                            <p class="project-description">
+                                Aplicativo de previsão do tempo usando Vue.js e OpenWeather API.
+                                Interface responsiva com animações suaves.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">API REST</span>
+                                <span class="tag">SCSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-secondary btn-sm">
+                                    <i class="bx bx-code-alt"></i>
+                                    Código
+                                </a>
+                                <a href="#" class="btn btn-primary btn-sm">
+                                    <i class="bx bx-link-external"></i>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">
+                © <span id="current-year">2024</span> Kaio Freelancer. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Update copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Navigation toggle
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        navToggle?.addEventListener('click', () => {
+            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', !isExpanded);
+            navMenu?.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
